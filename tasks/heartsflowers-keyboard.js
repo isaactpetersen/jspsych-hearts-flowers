@@ -85,7 +85,8 @@ const heart_instructions = {
       type: jsPsychHtmlKeyboardResponse,
       stimulus: `<div class="instructions">
         <div class="instructions-float">
-          <p>Very good. Try it a few more times - it goes pretty quickly.</p>
+          <p>Very good. Try it a few more times—it goes pretty quickly.</p>
+          <p><b><u>Please go as fast as you can!</u></b></p>
           <p>Press the spacebar to continue.</p>
         </div>
         <div class="heart-flower-stim">
@@ -146,7 +147,8 @@ const flower_instructions = {
       type: jsPsychHtmlKeyboardResponse,
       stimulus: `<div class="instructions">
         <div class="instructions-float">
-          <p>Very good. Try it a few more times - this can be tricky to get the hang of.</p>
+          <p>Very good. Try it a few more times—this can be tricky to get the hang of.</p>
+          <p><b><u>Please go as fast as you can!</u></b></p>
           <p>Press the spacebar to continue.</p>
         </div>
         <div class="heart-flower-stim">
@@ -163,15 +165,16 @@ const flower_instructions = {
   },
 };
 
-const mixed_instructions = {
+const mixed_instructions = { // update estimate of task duration
   timeline: [
     {
       type: jsPsychHtmlKeyboardResponse,
       stimulus: `<div class="instructions">
-        <p>Great! Now the real activity begins - both HEARTS and FLOWERS will pop up.</p>
+        <p>Great! Now the real activity begins—both HEARTS and FLOWERS will pop up.</p>
         <p>When you see a HEART, press the key that is on the SAME side as the heart.</p>
         <p>When you see a FLOWER, press the key that is on the OPPOSITE side as the flower.</p>
-        <p>This will take about three minutes to complete.</p> 
+        <p><b><u>Please respond as accurately and as quickly as you can!</u></b></p> 
+        <p>This will take about three minutes to complete.</p>
         <p>Press the spacebar to begin. Good luck!</p>
       </div>`,
       choices: [" "],
