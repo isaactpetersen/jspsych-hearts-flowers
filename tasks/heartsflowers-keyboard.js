@@ -1,6 +1,6 @@
 // PARAMETERS
 const practice_reps_per_side = 6; // 3
-const test_reps_per_item = 20; // 20
+const test_reps_per_item = 30; // 20
 const fixation_duration = 500;
 const blank_duration = 500;
 const response_window = 1000;
